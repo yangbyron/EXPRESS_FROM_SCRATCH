@@ -1,5 +1,5 @@
 const express = require('express');
-const PORT = 8000;
+const PORT = process.env.PORT;
 const app = express();
 const {Client} = require('pg');
 const fs = require('fs');
