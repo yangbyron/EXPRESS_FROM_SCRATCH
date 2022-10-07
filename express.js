@@ -6,9 +6,11 @@ const fs = require('fs');
 const bodyParser=require('body-parser');
 app.use(bodyParser());
 const cors = require('cors');
+const { resolveObjectURL } = require('buffer');
 app.use(cors());
 const client = new Client({
-    connectionString: "postgres://memo_list_user:uTtiyjjwdYsoXDB9Jw5Xesw6gyJGyLTW@dpg-cd088n4gqg4ftbmsl96g-a.oregon-postgres.render.com/memo_list"
+    connectionString: "postgres://memo_list_user:uTtiyjjwdYsoXDB9Jw5Xesw6gyJGyLTW@dpg-cd088n4gqg4ftbmsl96g-a.oregon-postgres.render.com/memo_list",
+    ssl:{resolveObjectURL:fase}
 });
 client.connect();
 
