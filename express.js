@@ -1,5 +1,4 @@
 const express = require('express');
-const { fstat, writeFile } = require('fs');
 const PORT = 8000;
 const app = express();
 const {Client} = require('pg');

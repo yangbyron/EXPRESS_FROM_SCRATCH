@@ -1,0 +1,26 @@
+{
+  "name": "express_from_scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangbyron/EXPRESS_FROM_SCRATCH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangbyron/EXPRESS_FROM_SCRATCH/issues"
+  },
+  "homepage": "https://github.com/yangbyron/EXPRESS_FROM_SCRATCH#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
