@@ -8,7 +8,7 @@ app.use(bodyParser());
 const cors = require('cors');
 app.use(cors());
 const client = new Client({
-    connectionString:"postgresql://postgres:docker@localhost:5432/memodb"
+    connectionString: "postgres://memo_list_user:uTtiyjjwdYsoXDB9Jw5Xesw6gyJGyLTW@dpg-cd088n4gqg4ftbmsl96g-a.oregon-postgres.render.com/memo_list"
 });
 client.connect();
 
