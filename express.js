@@ -31,7 +31,7 @@ app.post('/api/memo',(req,res)=>{
 
 app.delete('/api/memo',(req,res)=>{
     let id = req.body.id;
-    console.log(id);
+    console.log(req.body);
     client.query('DELETE FROM memo_table WHERE id = $1',[id])
     .then((data)=>{
         res.send();
