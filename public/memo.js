@@ -15,7 +15,7 @@ $.get('https://expressapi-81b8.onrender.com/api/memo',(descriptions)=>{
             data: {"id":e.target.id},
             success: function(){
                 console.log(e.target.id);
-                //location.reload();
+                location.reload();
             }
         })
     })
