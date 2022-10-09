@@ -3,7 +3,7 @@ const PORT = process.env.PORT;
 const app = express();
 const {Client} = require('pg');
 
-app.use(express.json);
+app.use(express.json());
 const cors = require('cors');
 
 app.use(cors());
